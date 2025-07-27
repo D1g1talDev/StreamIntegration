@@ -10,7 +10,20 @@ Go into the config, Then select what platform you want to connect to, Then do so
 - YouTube &amp; Twitch Support (you can do both at the same time)
 - Changes to the shop terminals
 
+### Adding Your Own Events
+Requirement:
+- ULTRAKILL Modding Knowledge
+
+
+
+Add the .dll in the download as a reference,
+Code your events,
+Do "using StreamIntegration.CrowdControl",
+Call "EventManager.RegisterEvent("My Event", MyEventsClass.PlayEvent)" to add your event into the mod,
+Now go into the config and go into:
+
+
+
 ### Special Thanks
 - truokyt - Made the mod icon
-- PITR - The idea
 
