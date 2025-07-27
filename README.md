@@ -11,6 +11,6 @@ Go into the config, Then select what platform you want to connect to, Then do so
 - Changes to the shop terminals
 
 ### Special Thanks
-- **truokyt** - Made the mod icon
-- **PITR** - The idea
+- truokyt - Made the mod icon
+- PITR - The idea
 
