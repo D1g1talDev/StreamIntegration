@@ -10,20 +10,23 @@ Go into the config, Then select what platform you want to connect to, Then do so
 - YouTube &amp; Twitch Support (you can do both at the same time)
 - Changes to the shop terminals
 
-### Adding Your Own Events
+### Adding Your Own Events (Not Required)
 Requirement:
-- ULTRAKILL Modding Knowledge
+- ULTRAKILL Modding Knowledge (C#)
+
+<img width="647" height="412" alt="refShot" src="https://github.com/user-attachments/assets/c97f8992-d252-415f-907c-112121d3bf58" />
 
 
-
-Add the .dll in the download as a reference,
+Add the .dll in the manual thunderstore download as a reference,
 Code your events,
 Do "using StreamIntegration.CrowdControl",
 Call "EventManager.RegisterEvent("My Event", MyEventsClass.PlayEvent)" to add your event into the mod,
-Now go into the config and go into:
 
 
+Now go into the config and go into Chat & Crowd Control, Crowd Control, then:
+<img width="929" height="351" alt="howtofind" src="https://github.com/user-attachments/assets/ce6d35ee-75ea-4e7e-a987-79091972880d" />
 
 ### Special Thanks
 - truokyt - Made the mod icon
+- PITR - For leaving his crowd control UI in the game
 
