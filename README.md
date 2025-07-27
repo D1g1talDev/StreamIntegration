@@ -2,7 +2,7 @@
 Allows your live stream chat to vote on modifiers/events to affect your game, YouTube &amp; Twitch are supported, You can also use this mod without the crowd control in the config.
 
 ## How To Setup
-Go into the config, Then select what platform you want to connect to, Then do some steps and you should be good.
+Go into the config, Then select what platform you want to connect to, Then follow the steps the game tells you to do.
 
 ### What The Mod Contains
 - 38 Modifiers/Events, With more to be added in the future
