@@ -5,7 +5,7 @@ Allows your live stream chat to vote on modifiers/events to affect your game, Yo
 Go into the config, Then select what platform you want to connect to, Then follow the steps the game tells you to do.
 
 ### What The Mod Contains
-- 39 Modifiers/Events, With more to be added in the future
+- 39 Modifiers/Events, (with more to be added in the future)
 - Crowd Control/Chat Control
 - YouTube &amp; Twitch Support (you can do both at the same time)
 - Changes to the shop terminals
