@@ -24,6 +24,14 @@ Requirement:
 - Do "using StreamIntegration.CrowdControl"
 - Call "EventManager.RegisterEvent" to add an event into the mod, Heres an example: "EventManager.RegisterEvent("My Event", MyEventsClass.PlayEvent);"
 - You can also make your event(s) require 100% of the votes, Example: "EventManager.RegisterEvent("My Event", MyEventsClass.PlayEvent).RequireOneHundredPercent = true;"
+- If you want your event(s) to stop running after a bit then do "using StreamIntegration.Events"
+- Then just do "EffectEvents.eventToggled", this value goes false when voting restarts and true whenever an event is active
+- Heres an example on how to use this:
+  - <img width="691" height="475" alt="Screenshot 2025-08-02 160135" src="https://github.com/user-attachments/assets/690f9339-0c94-4c6b-8f79-48c98854b466" />
+
+- To add that type of event you would just do this: <img width="955" height="46" alt="Screenshot 2025-08-02 155846" src="https://github.com/user-attachments/assets/6190d110-a3a5-4a5a-aeb7-3e3d5dbb129f" />
+
+- If you want to restart the voting instead, again do "using StreamIntegration.CrowdControl" (in your events class if you have one) and then call "VotingPanel.Instance.Restart();"
 
 
 Now go into the config and go into Chat & Crowd Control, Crowd Control, then "Events (SPOILERS)"
