@@ -27,6 +27,7 @@ Requirement:
 - If you want your event(s) to stop running after a bit then do "using StreamIntegration.Events"
 - Then just do "EffectEvents.eventToggled", this value goes false when voting restarts and true whenever an event is active
 - Heres an example on how to use this: <img width="1001" height="484" alt="Screenshot 2025-08-02 171610" src="https://github.com/user-attachments/assets/bec7e0e4-ac90-457e-ba0b-6e0eb04434d8" />
+- Ensure that you set "EffectEvents.eventToggled" to true when calling your event (if you don't it just won't run)
 
 
 - To add that type of event you would just do this: <img width="955" height="46" alt="Screenshot 2025-08-02 155846" src="https://github.com/user-attachments/assets/6190d110-a3a5-4a5a-aeb7-3e3d5dbb129f" />
