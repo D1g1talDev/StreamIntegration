@@ -30,6 +30,7 @@ Requirement:
   - <img width="691" height="475" alt="Screenshot 2025-08-02 160135" src="https://github.com/user-attachments/assets/690f9339-0c94-4c6b-8f79-48c98854b466" />
 
 - To add that type of event you would just do this: <img width="955" height="46" alt="Screenshot 2025-08-02 155846" src="https://github.com/user-attachments/assets/6190d110-a3a5-4a5a-aeb7-3e3d5dbb129f" />
+- Also make sure that the class with the events (if you use EffectEvents.eventToggled) is on your plugin object, Example: "(in your plugins class) gameObject.AddComponent<(class name with events here)>();"
 
 - If you want to restart the voting instead, again do "using StreamIntegration.CrowdControl" (in your events class if you have one) and then call "VotingPanel.Instance.Restart();"
 
