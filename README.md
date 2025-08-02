@@ -26,8 +26,8 @@ Requirement:
 - You can also make your event(s) require 100% of the votes, Example: "EventManager.RegisterEvent("My Event", MyEventsClass.PlayEvent).RequireOneHundredPercent = true;"
 - If you want your event(s) to stop running after a bit then do "using StreamIntegration.Events"
 - Then just do "EffectEvents.eventToggled", this value goes false when voting restarts and true whenever an event is active
-- Heres an example on how to use this:
-  - <img width="691" height="475" alt="Screenshot 2025-08-02 160135" src="https://github.com/user-attachments/assets/690f9339-0c94-4c6b-8f79-48c98854b466" />
+- Heres an example on how to use this: <img width="1001" height="484" alt="Screenshot 2025-08-02 171610" src="https://github.com/user-attachments/assets/bec7e0e4-ac90-457e-ba0b-6e0eb04434d8" />
+
 
 - To add that type of event you would just do this: <img width="955" height="46" alt="Screenshot 2025-08-02 155846" src="https://github.com/user-attachments/assets/6190d110-a3a5-4a5a-aeb7-3e3d5dbb129f" />
 - Also make sure that the class with the events (if you use EffectEvents.eventToggled) is on your plugin object, Example: "(in your plugins class) gameObject.AddComponent<(class name with events here)>();"
