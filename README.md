@@ -22,7 +22,8 @@ Requirement:
 
 - Code your event(s)
 - Do "using StreamIntegration.CrowdControl"
-- Call "EventManager.RegisterEvent" to add an event into the mod, Heres an example: "EventManager.RegisterEvent("My Event", MyEventsClass.PlayEvent)"
+- Call "EventManager.RegisterEvent" to add an event into the mod, Heres an example: "EventManager.RegisterEvent("My Event", MyEventsClass.PlayEvent);"
+- You can also make your event(s) require 100% of the votes, Example: "EventManager.RegisterEvent("My Event", MyEventsClass.PlayEvent).RequireOneHundredPercent = true;"
 
 
 Now go into the config and go into Chat & Crowd Control, Crowd Control, then "Events (SPOILERS)"
