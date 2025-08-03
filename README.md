@@ -35,13 +35,12 @@ Requirement:
 
 - If you want to restart the voting instead, again do "using StreamIntegration.CrowdControl" (in your events class if you have one) and then call "VotingPanel.Instance.Restart();"
 
-Now build your mod, And load your mod with StreamIntegration installed.
-Ingame, go into the config and go into Chat & Crowd Control, Crowd Control, then "Events (SPOILERS)"
+Now build your mod, And load your mod with StreamIntegration installed and you are done.
+
+If you want to test your events ingame then go into the config and go into Chat & Crowd Control, Crowd Control, then "Events (SPOILERS)"
 <img width="929" height="351" alt="howtofind" src="https://github.com/user-attachments/assets/ce6d35ee-75ea-4e7e-a987-79091972880d" />
 
-You'll find your event(s) there.
-
-### Special Thanks
+## Special Thanks
 - truokyt - Made the mod icon
 - Jace the ace - Additional playtesting
 - PITR - For leaving his crowd control UI in the game
