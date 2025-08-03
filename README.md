@@ -1,5 +1,5 @@
 # Stream Integration
-Allows your live stream chat to vote on modifiers/events to affect your game, YouTube &amp; Twitch are supported, You can also use this mod without the crowd control in the config.
+Allows your live stream chat to vote on modifiers/events to affect your game. YouTube and Twitch are supported. You can also use this mod without the Crowd Control by disabling it in the config.
 
 ## How To Setup
 Go into the config, Then select what platform you want to connect to, Then follow the steps the game tells you to do.
